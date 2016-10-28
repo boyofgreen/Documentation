@@ -39,8 +39,8 @@ var __STATICS_LIST__    = path.join(appRoot, 'data/statics.json'),
 
 module.exports = function(done){
     var staticCategories = [
-        "exporters",
-        "extensions",
+       // "exporters",
+      //  "extensions",
         "generals",
         "tutorials"
     ];

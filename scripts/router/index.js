@@ -7,14 +7,14 @@ var util = require('util');
  * Be careful, the order is important !
  */
 module.exports = function (app) {
-    app.use('/classes', require('./routes/classes'));
+  //  app.use('/classes', require('./routes/classes'));
     app.use('/tutorials', require('./routes/tutorials'));
-    app.use('/extensions', require('./routes/extensions'));
-    app.use('/exporters', require('./routes/exporters'));
+    //app.use('/extensions', require('./routes/extensions'));
+  //  app.use('/exporters', require('./routes/exporters'));
     app.use('/generals', require('./routes/generals'));
     app.use('/page.php', require('./routes/forward'));
-    app.use('/search', require('./routes/search'));
-    app.use('/playground', require('./routes/playground'));
+    // app.use('/search', require('./routes/search'));
+    // app.use('/playground', require('./routes/playground'));
 
 
     app.use(require('./routes/root'));

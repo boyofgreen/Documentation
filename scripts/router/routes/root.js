@@ -49,16 +49,16 @@ router.get('/whats-new', function (req, res) {
 });
 
 // PAGE EXTENSIONS
-router.get('/extensions', function (req, res) {
-    // render the page
-    res.render('extensions/extensions');
-});
+// router.get('/extensions', function (req, res) {
+//     // render the page
+//     res.render('extensions/extensions');
+// });
 
 // PAGE EXTENSIONS
-router.get('/exporters', function (req, res) {
-    // render the page
-    res.render('exporters/exporters');
-});
+// router.get('/exporters', function (req, res) {
+//     // render the page
+//     res.render('exporters/exporters');
+// });
 
 /**************
  * INDEX PAGE *

@@ -30,22 +30,6 @@
                 $('<a>', {
                     href: '/tutorials',
                     html: '<i class="fa fa-cogs"></i>Tutorials'
-                }),
-                $('<a>', {
-                    href: '/exporters',
-                    html: '<i class="fa fa-rocket"></i>Exporters'
-                }),
-                $('<a>', {
-                    href: '/extensions',
-                    html: '<i class="fa fa-wrench"></i>Extensions'
-                }),
-                $('<a>', {
-                    href: '/classes',
-                    html: '<i class="fa fa-files-o"></i>Classes'
-                }),
-                $('<a>', {
-                    href: '/playground',
-                    html: '<i class="fa fa-cubes"></i>Playground'
                 })
             ];
 
